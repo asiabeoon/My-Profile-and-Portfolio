@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 100, 238);
+    margin: auto;
+    color: white;
+    height: 100px;
+
+}
+
+/* moved h1 header over from the left */
+header h1{
+margin-left: 30px;
+}
+
+header nav{
+    
+    margin-right: 10px;
+  
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+section h3 {
+    width: 25%;
+}
+
+section div {
+    width: 60%
+}
+.placeholder {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+#work-images {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
