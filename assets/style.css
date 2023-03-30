@@ -14,6 +14,33 @@ body {
 
 }
 
+p {
+    text-align: center;
+}
+#about {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.me{
+    width: 15%;
+} 
+
+main {
+    margin-left: 5%; 
+    margin-right: 5%; 
+    width: 90%;
+} 
+
+.history{
+    width: 100%
+}
+
+ul {
+    display:none;
+}
+
 /* moved h1 header over from the left */
 header h1{
 margin-left: 30px;
