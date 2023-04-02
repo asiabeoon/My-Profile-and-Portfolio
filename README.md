@@ -10,7 +10,7 @@ I created a portfolio that contains my image, name, work history and the project
 To make the best use of my page simply read the directions and click text or images to get more information about what's on the site.
 
 
-![alt text](assets/images/screenshot.png)
+!![Screenshot](./assets/images/Screenshot-deployed.png)
 
 
 
