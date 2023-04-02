@@ -9,8 +9,10 @@ I created a portfolio that contains my image, name, work history and the project
 
 To make the best use of my page simply read the directions and click text or images to get more information about what's on the site.
 
+!![Screenshot](./assets/images/Wireframe%20-First%20Portfolio.png)
 
-!![Screenshot](./assets/images/Screenshot-deployed.png)
+!![Screenshot](./assets/images/Screenshot-portfolio2.png)
+
 
 
 
