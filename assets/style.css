@@ -3,7 +3,14 @@ body {
     margin: 0;
     background-image: linear-gradient( rgb(248, 214, 240), rgb(216, 7, 235));
 }
+/* Styling for the MAIN section of the page */
+main {
+    margin-left: 5%; 
+    margin-right: 5%; 
+    width: 90%;
+} 
 
+/* Styling for HEADER section which includes the navigation tabs/bar */
 #header {
     display:flex;
     justify-content: space-between;
@@ -16,41 +23,80 @@ body {
 
 }
 
-p {
-    text-align: center;
-  
-}
-#about {
-    display: flex;
-    width: 60%;
-    justify-content: space-between;
-    margin-left: 5%;
-}
-.me{
-    width: 15%;
-} 
-
-main {
-    margin-left: 5%; 
-    margin-right: 5%; 
-    width: 90%;
-} 
-
-.history{
-    width: 100%
-}
-
-
-
 /* moved h1 header over from the left */
 header h1{
-margin-left: 30px;
+    margin-left: 30px;
 }
 
+/* Styling for header nav */
 header nav{
-    
-    margin-right: 10px;
+     margin-right: 10px;
   
+}
+
+
+/* Styling for MY-IMAGE section */
+#my-image {
+    display: flex;
+    float: inline-end;
+    background-image: url('/assets/images/color\ patterns.jpg');
+}
+
+/* Styling for ID = MY-PIC parameters are based on "main" section area */
+.my-pic{
+    width: 20%;
+    height: 20%;
+} 
+
+/* Styling for all sections */
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+/* Styling for the ABOUT ME section */
+#about-me {
+    display: flex;
+    width: 85%;
+    margin: none;
+}
+
+/* Styling for the DIV inside the about me section */
+#about-me div {
+     height: 300px;
+     width: 70%; */
+  
+}
+
+/* Styling for the PARAGRAPH inside the div in the about me section */  
+#about-me p {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(151, 221, 198);
+    font-weight: 200;
+}
+
+/* Styling for the sentences between each section */
+p{
+    text-align: center;
+}
+
+/* Stlyling for the section widths of the history sections */
+.history, .history2{
+    width: 90%
+}
+
+/* About Me and Work History Headings */
+#about-me h3, #work-history h3 {
+    width: 25%;
+}
+
+.history2 h3
+{
+    display: none;
 }
 
 a {
@@ -59,23 +105,12 @@ a {
     padding: 20px;
 
 }
-section{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
 
-#about h3, #history h3 {
-    width: 25%;
-}
-#about img {
-    display: flex;
-    float: left;
-}
 
-section div {
+
+/* section div {
     width: 60%
-}
+} */
 
 span[data-descr] {
     position: relative;
@@ -117,22 +152,29 @@ span[data-descr] {
     text-align: center;
 }
 
-.project-back {
+/* Styling for PROJECTS section */
+.flex-container {
+    display: flex;
+    background-color: blue
+  }
   
-    background-color: rgb(83, 112, 241);
-    width: 400px;
-    height: 400px;
-    margin: 20px;
-    border-color: black;
-    border-radius: 6%;
-    border-width: 5cm;
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 500px;
+    margin: 15px;
     text-align: center;
-}
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  #projects img {
+    
+    object-fit: scale-down;
+  }
+  
 
-.project-back img{
-    width: 250px;
-    height: 250px;
-}
+
 #contact h3 {
     text-align: center;
 }
