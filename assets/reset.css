@@ -1,0 +1,13 @@
+
+html, body, div, span,  h1, h2, h3, p, a, img, strong,  center, aside, footer, header, nav, section { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit; 
+    vertical-align: baseline;
+  } 
+
+body {
+	line-height: 1;
+}

@@ -39,7 +39,7 @@ header nav{
 #my-image {
     display: flex;
     float: inline-end;
-    background-image: url('/assets/images/color\ patterns.jpg');
+    background-image: url(./images/color\ patterns.jpg);
 }
 
 /* Styling for ID = MY-PIC parameters are based on "main" section area */
@@ -99,7 +99,9 @@ p{
     text-align: center;
 }
 
-
+.between {
+    padding-top: 10px;
+}
 
 a {
     text-decoration: none;
@@ -174,6 +176,7 @@ span[data-descr] {
     transform: scale(1.5);
   }
 
+  /* Styling for Footer/Contact ME area */
 #contact h2 {
     
     text-align: center;
@@ -182,3 +185,63 @@ span[data-descr] {
 .contact-me {
     text-align: center;
 }
+
+ /* If the screen size is 600px or less, set the  <div> to 10px */
+@media only screen and (max-width: 600px) {
+    div {
+      font-size: 10px;
+    }
+  }
+
+ /* Extra small devices (phones, 600px and down) placeholder settings */
+@media only screen and (max-width: 600px) {
+    .placeholder {
+  
+        background-color: rgb(0, 204, 255);
+        width: 150px;
+        height: 150px;
+        margin: 7.5px;
+        border-color: black;
+        border-radius: none;
+        border-width: none;
+        text-align: center;
+    }
+  }
+ /* If the screen size is 600px or less, set the flex container to settings below*/
+@media only screen and (max-width: 600px) {
+    .flex-container > div {
+        background-color: DodgerBlue;
+        color: white;
+        width: 200px;
+        margin: 15px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 10px;
+      }
+  } 
+  
+ /* If the screen size is 600px or less, set the flex container img to below settings */
+@media only screen and (max-width: 600px) {
+    .flex-container > div  img {
+        width: 100px;
+        height: 100px;
+        
+      }
+  } 
+
+  /* If the screen size is 600px or less, set the hstory divs to the below settings */
+@media only screen and (max-width: 600px) {
+    .history, .history2 > div  img {
+        width: 50px;
+        height: 50px;
+        
+      }
+  } 
+
+/* If the screen size is 600px or less, set the p class between to settings below */
+  @media only screen and (max-width: 600px) {
+    .between {
+       padding: 55px;
+       line-height: 1;
+      }
+  } 
